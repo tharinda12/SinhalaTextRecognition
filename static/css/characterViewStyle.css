@@ -1,0 +1,155 @@
+body {
+    /*background: radial-gradient(circle, lightgrey, grey);*/
+    background-image: url("../img/bg0.jpg");
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    color: white;
+}
+
+.nav-bar {
+    background-color: #0004;
+}
+
+.page-name {
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.page-name img {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+.name {
+    font-size: x-large;
+    margin-left: 2%;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-upload {
+    margin: 5% auto;
+    width: 45%;
+}
+
+canvas {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto auto 5px;
+    display: block;
+    background-color: white;
+}
+
+button {
+    width: 125px;
+    margin: 2% 0;
+}
+
+#guess {
+    margin-top: -20px;
+    font-size: 150px;
+}
+
+#all {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0008;
+}
+
+.footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#info {
+    margin: 100% auto;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    color: black;
+    display: flex;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin: auto 0 auto 96%;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.left-side {
+    width: 40%;
+}
+
+.right-side {
+    width: 60%;
+    padding: 10% 0 0 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#character {
+    font-size: 150px;
+    text-align: center;
+}
+
+#characterKo {
+    font-size: 100px;
+    text-align: center;
+}
+
+.audio {
+    margin: auto;
+}
